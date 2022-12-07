@@ -3,7 +3,7 @@
 </script>
   
 
-  <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded drop-shadow-md">
+  <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded drop-shadow-lg">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
       <a href="/" class="flex items-center">
           <span class="self-center text-xl font-semibold whitespace-nowrap">Almost Blog</span>
@@ -31,8 +31,11 @@
     </div>
   </nav>
   
-<body class="bg-gray-100">
+<body class="bg-gray-200 drop-shadow-md h-screen">
   <slot />
 </body>
 
 
+<div class="text-center py-5 bg-white">
+  <p>Copyright &copy; <a href="https://www.almostapps.eu/" class="hover:underline hover:text-gray-500">Almost Apps</a></p>
+</div>
